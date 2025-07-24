@@ -1,0 +1,23 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 1.1em;
+}
+
+/* Style for income list items */
+.income {
+  border-right: 5px solid #28a745;
+}
+
+/* Style for expense list items */
+.expense {
+  border-right: 5px solid #dc3545;
+}

@@ -1,0 +1,32 @@
+.balanceContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.balanceContainer h4 {
+  margin: 0 0 5px 0;
+  color: #555;
+  font-weight: normal;
+}
+
+.balanceContainer p {
+  margin: 0;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.income {
+  color: #28a745 !important;
+}
+
+.expense {
+  color: #dc3545 !important;
+}
