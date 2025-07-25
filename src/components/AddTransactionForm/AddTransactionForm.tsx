@@ -18,7 +18,6 @@ export const AddTransactionForm: React.FC<AddTransactionFormProps> = ({ onAddTra
       return;
     }
     onAddTransaction({ description, amount, type });
-    // Reset form
     setDescription('');
     setAmount(0);
   };
@@ -38,6 +37,7 @@ export const AddTransactionForm: React.FC<AddTransactionFormProps> = ({ onAddTra
         value={amount}
         onChange={(e) => setAmount(parseFloat(e.target.value))}
         required
+        min={0}
       />
       <select value={type} onChange={(e) => setType(e.target.value as 'Income' | 'Expense')}> 
         <option value="Income">Income</option>

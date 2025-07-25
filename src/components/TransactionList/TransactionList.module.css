@@ -12,12 +12,12 @@
   font-size: 1.1em;
 }
 
-/* Style for income list items */
+
 .income {
   border-right: 5px solid #28a745;
 }
 
-/* Style for expense list items */
+
 .expense {
   border-right: 5px solid #dc3545;
 }

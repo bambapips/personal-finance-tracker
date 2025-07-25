@@ -1,13 +1,11 @@
-/* Main container for the filter controls */
 .filterContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 15px; /* Adds space between the input and the dropdown */
+  gap: 15px;
   margin-bottom: 20px;
 }
 
-/* Style the text input field */
 .filterContainer input {
   flex-grow: 1; 
   padding: 10px;
@@ -15,7 +13,6 @@
   border-radius: 5px;
   font-size: 1em;
 }
-
 
 .filterContainer select {
   padding: 10px;
