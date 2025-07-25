@@ -30,20 +30,20 @@ function App() {
     });
   }, [transactions, filterType, searchTerm]);
 
-  const [quote, setQuote] = useState('');
+  // const [quote, setQuote] = useState('');
 
-  useEffect(() => {
-    fetch('https://api.api-ninjas.com/v1/quotes')
-      .then(res => res.json())
-      .then(data => setQuote(`"${data.content}" - ${data.author}`))
-      .catch(err => console.error("Failed to fetch quote", err));
-  }, []);
+  // useEffect(() => {
+  //   fetch('https://api.api-ninjas.com/v1/quotes')
+  //     .then(res => res.json())
+  //     .then(data => setQuote(`"${data.content}" - ${data.author}`))
+  //     .catch(err => console.error("Failed to fetch quote", err));
+  // }, []);
 
   return (
     <div className="App">
       <h1>Personal Finance Tracker</h1>
       <br/>
-      <p>{quote}</p>
+      {/* <p>{quote}</p> */}
       <BalanceDisplay transactions={transactions} />
       <AddTransactionForm onAddTransaction={handleAddTransaction} />
       <hr />
