@@ -39,7 +39,7 @@ src/
 ## How to Run Locally
 
 1.  Clone the repository:
-    `git clone <your-repo-url>`
+    `git clone https://github.com/bambapips/personal-finance-tracker.git`
 2.  Install dependencies:
     `npm install`
 3.  Start the development server:
