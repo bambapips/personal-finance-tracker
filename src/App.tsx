@@ -1,5 +1,5 @@
 // src/App.tsx
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo } from 'react';
 import type { Transaction } from './types';
 import { useLocalStorage } from './hooks/useLocalStorage';
 import { AddTransactionForm } from './components/AddTransactionForm/AddTransactionForm';
