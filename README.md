@@ -12,7 +12,7 @@ A web application for tracking personal income and expenses, built with Vite, Re
 
 ## Project Structure
 
-`
+```
 src/
 ├── components/
 │   ├── AddTransactionForm/
@@ -34,18 +34,26 @@ src/
 ├── App.tsx
 ├── App.css
 └── main.tsx
-`
+```
 
 ## How to Run Locally
 
 1.  Clone the repository:
-    ```git clone https://github.com/bambapips/personal-finance-tracker.git```
+    ```
+    git clone https://github.com/bambapips/personal-finance-tracker.git
+    ```
 2.  Enter project directory:
-    ```cd personal-finance-tracker```
+    ```
+    cd personal-finance-tracker
+    ```
 3.  Install dependencies:
-    ```npm install```
+    ```
+    npm install
+    ```
 4.  Start the development server:
-    ```npm run dev```
+    ```
+    npm run dev
+    ```
 5.  Open [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal) to view it in your browser.
 
 ## Tech Stack
